@@ -1,0 +1,31 @@
+﻿{
+  "PackageFormatVersion": "1.0",
+  "Assembly": "jeanphilippe_cornil_gmail_com.Logic.Nodes.dll",
+  "PackageName": {
+    "en": "Logic nodes"
+  },
+  "DependentFiles": [
+    "LogicModule.Nodes.Helpers.dll"
+  ],
+  "Version": "1.0.1",
+  "Author": "AUTHOR",
+  "Copyright": "COPYRIGHT",
+  "DeveloperId": "jeanphilippe_cornil_gmail_com",
+  "License": "Free",
+  "PackageId": "7414F18A-609D-4572-9CFF-3C07505FEE61",
+  "Nodes": [
+    {
+      "Type": "jeanphilippe_cornil_gmail_com.Logic.Nodes.CounterIncDec",
+      "Name": {
+        "en": "Counter Increment/Decrement/Set"
+      },
+      "IsConverter": false,
+      "Category": "Node",
+      "DefaultIcon": "icons/CounterIncDec.png",
+      "HelpTooltip": {
+        "en": "Counter with min/max/set capabilities."
+      },
+      "HelpFileReference": null
+    }
+  ]
+}
